@@ -1,0 +1,170 @@
+tasks:
+  define_product_vision:
+    description: Define and document the product vision and strategic goals based on business objectives and market analysis.
+    expected_output: A clear and concise product vision statement with 3-5 strategic goals.
+    agent: product_manager
+
+  prioritize_product_backlog:
+    description: Prioritize the product backlog based on customer needs, business value, and technical feasibility.
+    expected_output: A prioritized product backlog with user stories sorted by business value and technical priority.
+    agent: product_owner
+
+  elicit_business_requirements:
+    description: Conduct stakeholder interviews and analyze business processes to elicit and document business and functional requirements.
+    expected_output: A requirements document listing detailed business requirements, functional requirements, and key user stories.
+    agent: business_analyst
+
+  create_initial_content_guidelines:
+    description: Draft initial content guidelines and terminology to ensure clarity and consistency across the product.
+    expected_output: A content guideline document covering terminology, tone of voice, and content style recommendations.
+    agent: content_designer
+
+  validate_product_direction:
+    description: Review and validate the product vision and backlog to ensure alignment with business objectives.
+    expected_output: A validation summary with feedback on alignment with business goals and market needs.
+    agent: business_stakeholder
+
+  define_system_architecture:
+    description: Define the system architecture including components, integrations, data flows, and technology stack.
+    expected_output: A system architecture diagram and an architecture decision record document.
+    agent: architect
+
+  create_detailed_technical_design:
+    description: Create detailed technical design including component responsibilities, APIs, and data models.
+    expected_output: A technical design document with component descriptions, data models, and API definitions.
+    agent: tech_lead
+
+  design_user_experience:
+    description: Design wireframes and interactive prototypes for key user workflows.
+    expected_output: A set of wireframes and interactive prototypes covering core product flows.
+    agent: ux_ui_designer
+
+  define_security_requirements:
+    description: Define security requirements and threat models for the product based on architecture and business context.
+    expected_output: A security requirements document and a threat model diagram.
+    agent: security_engineer
+
+  clarify_user_stories:
+    description: Clarify and refine user stories and acceptance criteria for the upcoming sprint.
+    expected_output: A refined list of user stories with clear acceptance criteria.
+    agent: product_owner
+
+  facilitate_sprint_planning:
+    description: Facilitate sprint planning session and generate a sprint backlog.
+    expected_output: A sprint backlog with selected user stories and task assignments.
+    agent: scrum_master
+
+  develop_software_components:
+    description: Design, develop, and test software components based on the sprint backlog.
+    expected_output: A properly formatted, functional Python code block.
+    agent: software_engineer
+
+  review_code_and_mentor_team:
+    description: Review submitted code for quality, consistency, and architectural alignment. Provide feedback and mentor the team.
+    expected_output: A code review report with comments and improvement suggestions.
+    agent: tech_lead
+
+  embed_security_in_code:
+    description: Review developed code for security vulnerabilities and recommend improvements.
+    expected_output: A security review report with identified vulnerabilities and mitigation steps.
+    agent: security_engineer
+
+  set_up_ci_cd_pipeline:
+    description: Set up and configure CI/CD pipelines for automated build, test, and deployment.
+    expected_output: A CI/CD pipeline configuration with successful test runs and deployment automation enabled.
+    agent: devops_engineer
+
+  design_and_execute_tests:
+    description: Design and execute manual and automated tests to ensure product quality and reliability.
+    expected_output: A test execution report with test coverage summary, defects found, and test results.
+    agent: qa_engineer
+
+  conduct_security_testing:
+    description: Perform security testing including static code analysis and penetration testing.
+    expected_output: A security testing report with identified vulnerabilities and recommendations.
+    agent: security_engineer
+
+  coordinate_uat:
+    description: Coordinate User Acceptance Testing (UAT) with business stakeholders and customers.
+    expected_output: A UAT summary report with stakeholder feedback and defect list.
+    agent: business_analyst
+
+  participate_in_uat:
+    description: Participate in User Acceptance Testing and provide feedback on product usability and functionality.
+    expected_output: A list of feedback points and improvement suggestions based on UAT experience.
+    agent: business_stakeholder
+
+  manage_release_pipeline:
+    description: Manage release pipelines and monitor the release process for quality and stability.
+    expected_output: A release report with build status, test results, and production deployment confirmation.
+    agent: devops_engineer
+
+  perform_release_readiness_check:
+    description: Perform technical and functional readiness checks prior to release.
+    expected_output: A readiness checklist with go/no-go recommendation for release.
+    agent: tech_lead
+
+  approve_release:
+    description: Approve the release based on business impact, customer readiness, and product KPIs.
+    expected_output: An approval note confirming release readiness from business perspective.
+    agent: product_manager
+
+  finalize_product_documentation:
+    description: Finalize and publish user documentation, release notes, and help content.
+    expected_output: A published documentation set including user guides, release notes, and help content.
+    agent: content_designer
+
+  monitor_system_health:
+    description: Monitor system health, performance, and observability post-release.
+    expected_output: A system health dashboard report with key metrics and identified issues.
+    agent: devops_engineer
+
+  monitor_security_posture:
+    description: Continuously monitor security posture and respond to any new threats.
+    expected_output: A security posture report with key metrics and risk assessments.
+    agent: security_engineer
+
+  analyze_product_kpis:
+    description: Analyze product KPIs and user feedback post-release to inform next iterations.
+    expected_output: A product KPI report with actionable insights for product improvement.
+    agent: product_manager
+
+  facilitate_retrospective:
+    description: Facilitate sprint retrospective and capture improvement actions.
+    expected_output: A retrospective summary with identified improvement actions.
+    agent: scrum_master
+
+  refine_product_backlog:
+    description: Refine product backlog based on customer feedback, product KPIs, and team learnings.
+    expected_output: An updated product backlog with reprioritized user stories.
+    agent: product_owner
+
+  conduct_usability_studies:
+    description: Conduct usability studies and gather insights to inform UX/UI improvements.
+    expected_output: A usability study report with key findings and design improvement suggestions.
+    agent: ux_ui_designer
+
+  update_product_documentation:
+    description: Update product documentation based on user feedback and new product features.
+    expected_output: An updated documentation set with improved clarity and completeness.
+    agent: content_designer
+
+  provide_continuous_feedback:
+    description: Provide continuous feedback on product experience and suggest new features or improvements.
+    expected_output: A feedback list with prioritized improvement suggestions.
+    agent: customer
+
+  #report_full_sdlc:
+  #  description: |
+  #    Summarize the outputs of all SDLC phases into a single full report:
+  #    - Planning Stage tasks
+  #    - Architecture & Design tasks
+  #    - Pre-Development Readiness tasks
+  #    - Testing tasks
+  #    - Release tasks
+  #    - Monitoring tasks
+  #    - Continuous Improvement tasks
+  #  expected_output: |
+  #    A single consolidated SDLC report in markdown format.
+  #    One section per SDLC phase. Include key decisions, risks, and next steps.
+  #  agent: scrum_master
